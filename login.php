@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0051)https://getbootstrap.com/docs/4.1/examples/sign-in/ -->
+<?php
+  include("functions.php");
+  if ($_POST) {
+    login($_POST);
+  }
+ ?>
 <html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -27,15 +32,15 @@
                             <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
                                 <div class="form-group">
                                     <label for="uname1">Usuario</label>
-                                    <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required="">
+                                    <input type="email" class="form-control form-control-lg rounded-0" name="usuario" id="uname1" required="">
                                     <div class="invalid-feedback">Ingresa tu usuario</div>
                                 </div>
                                 <div class="form-group">
                                     <label>Contraseña</label>
-                                    <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" required="" autocomplete="new-password">
+                                    <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" name="password" required="" autocomplete="new-password">
                                     <div class="invalid-feedback">Ingresa tu contraseña</div>
                                 </div>
-                            
+
                                 <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Login</button>
                             </form>
                         </div>
