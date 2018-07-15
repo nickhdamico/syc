@@ -10,17 +10,51 @@
     <meta name="author" content="">
 
 
-    <title>Regisrtro de Ordenes</title>
+    <title>Registro de Ordenes</title>
   </head>
 
-  <body class="text-center">
-    <form class="form-signin">
-      <label for="inputEmail" class="sr-only">Direccion de Email</label>
-      <input type="email" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
-      <label for="inputPassword" class="sr-only">Contraseña</label>
-      <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required="">
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-    </form>
+  <body class="bg-dark">
+    <div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center text-white mb-4">Registro de Ordenes</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+
+                    <!-- form card login -->
+                    <div class="card rounded-0">
+                        <div class="card-body">
+                            <form class="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
+                                <div class="form-group">
+                                    <label for="uname1">Usuario</label>
+                                    <input type="text" class="form-control form-control-lg rounded-0" name="uname1" id="uname1" required="">
+                                    <div class="invalid-feedback">Ingresa tu usuario</div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Contraseña</label>
+                                    <input type="password" class="form-control form-control-lg rounded-0" id="pwd1" required="" autocomplete="new-password">
+                                    <div class="invalid-feedback">Ingresa tu contraseña</div>
+                                </div>
+                            
+                                <button type="submit" class="btn btn-success btn-lg float-right" id="btnLogin">Login</button>
+                            </form>
+                        </div>
+                        <!--/card-block-->
+                    </div>
+                    <!-- /form card login -->
+
+                </div>
+
+
+            </div>
+            <!--/row-->
+
+        </div>
+        <!--/col-->
+    </div>
+    <!--/row-->
+</div>
+<!--/container-->
 
 
 </body></html>
