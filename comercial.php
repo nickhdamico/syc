@@ -30,14 +30,16 @@
             <li class="active"><a data-toggle="tab" href="#individual">Individual</a></li>
             <li><a data-toggle="tab" href="#masiva">Masiva</a></li>
           </ul>
-
-          <div id="individual" class="tab-pane fade in active">
+          <div class="tab-content">
+          <div id="individual" class="tab-pane fade active">
             <?php include "assets/comercial/orden_ind.php" ?>
           </div>
           <div id="masiva" class="tab-pane fade">
           <?php include "assets/comercial/orden_mas.php" ?>
           </div>
         </div>
+      </div>
+
         <div id="ordenes" class="tab-pane fade">
         <?php include "assets/comercial/ordenes.php" ?>
         </div>

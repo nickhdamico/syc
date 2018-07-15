@@ -1,5 +1,4 @@
 <h3>Individual</h3>
-<br>
 <form class="" action="index.html" method="post">
 
   <div class="form-group" style="width:20%;display: inline-block;">
@@ -73,5 +72,6 @@
       <label for="comentarios">Comentario</label>
       <input type="text" id="comentario" class="form-control" name="comentario" value="">
   </div>
+  <input type="hidden" name="individual" value="true">
   <input class="btn btn-primary" type="submit" value="Enviar">
 </form>
