@@ -32,176 +32,18 @@
           </ul>
 
           <div id="individual" class="tab-pane fade in active">
-            <h3>Individual</h3>
-            <br>
-
-            <form class="" action="index.html" method="post">
-
-              <div class="form-group" style="width:20%;display: inline-block;">
-                  <label for="comitente_nro">Nro Comitente</label>
-                  <input required type="number" id="comitente_nro" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group" style="width:78%;display: inline-block;">
-                  <label for="comitente_nombre">Nombre</label>
-                  <input type="text" id="comitente_nombre" class="form-control" name="" value="" disabled>
-              </div>
-
-              <div class="form-group" style="width:24%;display: inline-block;">
-                <label for="operacion">Operación</label>
-                  <select required class="form-control" id="operacion">
-                    <option selected>Seleccionar</option>
-                   <option>Compra</option>
-                   <option>Venta</option>
-                  </select>
-              </div>
-
-              <div class="form-group" style="width:25%;display: inline-block;">
-                <label for="instrumento">Instrumento</label>
-                  <select required class="form-control" id="instrumento">
-                    <option selected>Seleccionar</option>
-                   <option>Accion</option>
-                   <option>Bono</option>
-                   <option>LEBAC</option>
-                   <option>Dolar Bolsa</option>
-                   <option>Pesos Bolsa</option>
-                   <option>Caucion Tomadora</option>
-                  </select>
-              </div>
-
-              <div class="form-group" id="form-especie" style="width:24%;display: inline-block;">
-                  <label for="especie">Especie</label>
-                  <input type="text" id="especie" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group" style="width:24%;display: inline-block;">
-                <label for="plazo">Plazo</label>
-                  <select class="form-control" id="plazo">
-                    <option selected>Seleccionar</option>
-                   <option>CI</option>
-                   <option>24 hs</option>
-                   <option>48 hs</option>
-                   <option>Plazo Convenient</option>
-                  </select>
-              </div>
-              <br>
-              <div class="form-group" style="width:10%;display: inline-block;">
-                <label for="moneda">Moneda</label>
-                  <select class="form-control" id="moneda">
-                    <option selected>Seleccionar</option>
-                   <option>ARS</option>
-                   <option>USD</option>
-                  </select>
-              </div>
-
-              <div class="form-group" style="width:20%;display: inline-block;">
-                <label for="monto_bruto">Monto -bruto-</label>
-                <input type="number" id="monto_bruto" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group" style="width:20%;display: inline-block;">
-                <label for="precio_limite">Precio Límite</label>
-                <input type="number" id="precio_limite" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group">
-                  <label for="comentarios">Comentarios</label>
-                  <input type="text" id="comentarios" class="form-control" name="" value="">
-              </div>
-              <input class="btn btn-primary" type="submit" value="Enviar">
-            </form>
+            <?php include "assets/comercial/orden_ind.php" ?>
           </div>
           <div id="masiva" class="tab-pane fade">
-            <h3>Masiva</h3>
-            <br>
-            <form class="" action="index.html" method="post">
-
-              <div class="form-group">
-                  <label for="comitente_nro">Nro Comitente</label>
-                  <input required type="number" id="comitente_nro" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group">
-                  <label for="comitente_nombre">Nombre</label>
-                  <input type="text" id="comitente_nombre" class="form-control" name="" value="" disabled>
-              </div>
-
-              <div class="form-group">
-                <label for="operacion">Operación</label>
-                  <select required class="form-control" id="operacion">
-                    <option selected>Seleccionar</option>
-                   <option>Compra</option>
-                   <option>Venta</option>
-                  </select>
-              </div>
-
-              <div class="form-group">
-                <label for="instrumento">Instrumento</label>
-                  <select required class="form-control" id="instrumento">
-                    <option selected>Seleccionar</option>
-                   <option>Accion</option>
-                   <option>Bono</option>
-                   <option>LEBAC</option>
-                   <option>Dolar Bolsa</option>
-                   <option>Pesos Bolsa</option>
-                   <option>Caucion Tomadora</option>
-                  </select>
-              </div>
-
-              <div class="form-group" id="form-especie">
-                  <label for="especie">Especie</label>
-                  <input type="text" id="especie" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group">
-                <label for="plazo">Plazo</label>
-                  <select class="form-control" id="plazo">
-                    <option selected>Seleccionar</option>
-                   <option>CI</option>
-                   <option>24 hs</option>
-                   <option>48 hs</option>
-                   <option>Plazo Convenient</option>
-                  </select>
-              </div>
-
-              <div class="form-group">
-                <label for="moneda">Moneda</label>
-                  <select class="form-control" id="moneda">
-                    <option selected>Seleccionar</option>
-                   <option>ARS</option>
-                   <option>USD</option>
-                  </select>
-              </div>
-
-              <div class="form-group">
-                <label for="monto_bruto">Monto -bruto-</label>
-                <input type="number" id="monto_bruto" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group">
-                <label for="precio_limite">Precio Límite</label>
-                <input type="number" id="precio_limite" class="form-control" name="" value="">
-              </div>
-
-              <div class="form-group">
-                  <label for="comentarios">Comentarios</label>
-                  <input type="text" id="comentarios" class="form-control" name="" value="">
-              </div>
-              <input class="btn btn-primary" type="submit" value="Enviar">
-            </form>
-
+          <?php include "assets/comercial/orden_mas.php" ?>
           </div>
-
-
         </div>
         <div id="ordenes" class="tab-pane fade">
-          <h3>Ordenes</h3>
-          <p>Aca podes visualizar tus ordenes cargadas o en el caso, las de tu grupo.</p>
+        <?php include "assets/comercial/ordenes.php" ?>
         </div>
 
         <div id="estadisticas" class="tab-pane fade">
-          <h3>Estadísticas</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <?php include "assets/comercial/estadistica.php" ?>
         </div>
       </div>
     </div>
