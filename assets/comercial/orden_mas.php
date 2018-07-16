@@ -72,6 +72,5 @@
       <label for="comentarios">Comentario</label>
       <input type="text" id="comentario" class="form-control" name="comentario" value="">
   </div>
-  <input type="hidden" name="masiva" value="true">
   <input class="btn btn-primary" type="submit" value="Enviar">
 </form>
