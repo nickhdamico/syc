@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<?php
+include("functions.php");
+session_start();
+if (isset($_SESSION["type"]) && $_SESSION["type"]=="comercial") {
+  if ($_POST) {
+  orden($_POST,$_SESSION);
+  }
+}else{
+    header('location:login.php');
+}
+ ?>
 <html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -31,7 +42,11 @@
             <li class="active"><a data-toggle="tab" href="#individual">Individual</a></li>
             <li><a data-toggle="tab" href="#masiva">Masiva</a></li>
           </ul>
+<<<<<<< HEAD
           <div class="tab-content">
+=======
+
+>>>>>>> 0b4a06587b4224e6830ae3aeadc9110cda57ef35
           <div id="individual" class="tab-pane fade in active">
             <?php include "assets/comercial/orden_ind.php" ?>
           </div>
@@ -39,8 +54,6 @@
           <?php include "assets/comercial/orden_mas.php" ?>
           </div>
         </div>
-      </div>
-
         <div id="ordenes" class="tab-pane fade">
         <?php include "assets/comercial/ordenes.php" ?>
         </div>
