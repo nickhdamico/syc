@@ -68,10 +68,18 @@
     <input type="number" id="precio_limite" class="form-control" name="precio_limite" value="">
   </div>
 
-  <div class="form-group">
+  <div class="form-group" style="width:80%;display: inline-block;">
       <label for="comentarios">Comentario</label>
       <input type="text" id="comentario" class="form-control" name="comentario" value="">
   </div>
+
+  <div class="input-group-btn" style="width:15%;display: inline-block;">
+        <button class="btn btn-success" type="button"  onclick="orden_masiva();"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+  </div>
+  <div id="orden_masiva">
+
+  </div>
+
   <input type="hidden" name="masiva" value="true">
   <input class="btn btn-primary" type="submit" value="Enviar">
 </form>
