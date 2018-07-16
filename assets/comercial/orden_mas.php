@@ -72,17 +72,13 @@
       <label for="comentarios">Comentario</label>
       <input type="text" id="comentario" class="form-control" name="comentario" value="">
   </div>
-<<<<<<< HEAD
 
   <div class="input-group-btn" style="width:15%;display: inline-block;">
-        <button class="btn btn-success" type="button"  onclick="orden_masiva();"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+        <button class="btn btn-success" style="width:80%;float:right;" type="button"  onclick="orden_masiva();"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
   </div>
   <div id="orden_masiva">
-
   </div>
 
   <input type="hidden" name="masiva" value="true">
-=======
->>>>>>> 0b4a06587b4224e6830ae3aeadc9110cda57ef35
   <input class="btn btn-primary" type="submit" value="Enviar">
 </form>
