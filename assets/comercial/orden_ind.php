@@ -75,3 +75,24 @@
   </div>
   <input class="btn btn-primary" type="submit" value="Enviar">
 </form>
+
+
+<!-- Agregar VN y agregar Caución colocadora
+
+Moneda siempre por que se vende contra USD o $
+Monto bruto o VN es excluyente
+
+Si o si completar siempre Precio limite -> numero o MarketPrice
+
+Select option para arancel especial. cambiaria solo para esta operacion a un monto especifico definido por el comercial.
+if check display input number replacing arancel on db.
+
+Neto sacarlo row db
+
+Precio es el ultimo calculo que debe de ser el operador
+campo avaiable input number edit save on db
+
+En pesos o dolar no VN
+Comercial solo ve la orden
+rows 3/4 no
+Click en principal, desgloce de 3/4 para op. -->
