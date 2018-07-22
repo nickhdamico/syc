@@ -30,6 +30,7 @@
        <option>LEBAC</option>
        <option>Dolar Bolsa</option>
        <option>Pesos Bolsa</option>
+       <option>Caucion Colocadora</option>
        <option>Caucion Tomadora</option>
       </select>
   </div>
@@ -68,7 +69,10 @@
     <label for="precio_limite">Precio Límite</label>
     <input type="number" id="precio_limite" class="form-control" name="precio_limite" value="">
   </div>
-
+  <div class="form-group">
+    <label for="arancel_especial">Arancel Especial</label>
+    <input type="checkbox" id="arancel_especial" class="form-control" name="arancel_especial" value="">
+  </div>
   <div class="form-group">
       <label for="comentarios">Comentario</label>
       <input type="text" id="comentario" class="form-control" name="comentario" value="">
@@ -77,7 +81,8 @@
 </form>
 
 
-<!-- Agregar VN y agregar Caución colocadora
+<!--
+Agregar VN y agregar Caución colocadora
 
 Moneda siempre por que se vende contra USD o $
 Monto bruto o VN es excluyente
@@ -95,4 +100,5 @@ campo avaiable input number edit save on db
 En pesos o dolar no VN
 Comercial solo ve la orden
 rows 3/4 no
-Click en principal, desgloce de 3/4 para op. -->
+Click en principal, desgloce de 3/4 para op.
+-->
