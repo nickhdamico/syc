@@ -3,17 +3,17 @@
 
   <div class="form-group" style="width:20%;display: inline-block;">
       <label for="comitente_nro">Nro Comitente</label>
-      <input required type="number" id="comitente_nro" class="form-control" name="comitente_nro" value="">
+      <input required type="number" id="comitente_nro" class="form-control" name="comitente_nro0" value="">
   </div>
 
   <div class="form-group" style="width:78%;display: inline-block;">
       <label for="comitente_nombre">Nombre</label>
-      <input type="text" id="comitente_nombre" class="form-control" name="comitente_nombre" value="" disabled>
+      <input type="text" id="comitente_nombre" class="form-control" name="comitente_nombre0" value="" disabled>
   </div>
 
   <div class="form-group" style="width:24%;display: inline-block;">
     <label for="operacion">Operación</label>
-      <select required class="form-control" id="operacion" name="operacion">
+      <select required class="form-control" id="operacion" name="operacion0">
         <option selected>Seleccionar</option>
        <option>Compra</option>
        <option>Venta</option>
@@ -22,7 +22,7 @@
 
   <div class="form-group" style="width:25%;display: inline-block;">
     <label for="instrumento">Instrumento</label>
-      <select required class="form-control" id="instrumento" name="instrumento">
+      <select required class="form-control" id="instrumento" name="instrumento0">
         <option selected>Seleccionar</option>
        <option>Accion</option>
        <option>Bono</option>
@@ -35,12 +35,12 @@
 
   <div class="form-group" id="form-especie" style="width:24%;display: inline-block;">
       <label for="especie">Especie</label>
-      <input type="text" id="especie" class="form-control" name="especie" value="">
+      <input type="text" id="especie" class="form-control" name="especie0" value="">
   </div>
 
   <div class="form-group" style="width:24%;display: inline-block;">
     <label for="plazo">Plazo</label>
-      <select class="form-control" id="plazo" name="plazo">
+      <select class="form-control" id="plazo" name="plazo0">
         <option selected>Seleccionar</option>
        <option>CI</option>
        <option>24 hs</option>
@@ -51,7 +51,7 @@
   <br>
   <div class="form-group" style="width:10%;display: inline-block;">
     <label for="moneda">Moneda</label>
-      <select class="form-control" id="moneda" name="moneda">
+      <select class="form-control" id="moneda" name="moneda0">
         <option selected>Seleccionar</option>
        <option>ARS</option>
        <option>USD</option>
@@ -60,17 +60,17 @@
 
   <div class="form-group" style="width:20%;display: inline-block;">
     <label for="monto_bruto">Monto -bruto-</label>
-    <input type="number" id="monto_bruto" class="form-control" name="monto_bruto" value="">
+    <input type="number" id="monto_bruto" class="form-control" name="monto_bruto0" value="">
   </div>
 
   <div class="form-group" style="width:20%;display: inline-block;">
     <label for="precio_limite">Precio Límite</label>
-    <input type="number" id="precio_limite" class="form-control" name="precio_limite" value="">
+    <input type="number" id="precio_limite" class="form-control" name="precio_limite0" value="">
   </div>
 
   <div class="form-group" style="width:80%;display: inline-block;">
       <label for="comentarios">Comentario</label>
-      <input type="text" id="comentario" class="form-control" name="comentario" value="">
+      <input type="text" id="comentario" class="form-control" name="comentario0" value="">
   </div>
 
   <div class="input-group-btn" style="width:15%;display: inline-block;">
