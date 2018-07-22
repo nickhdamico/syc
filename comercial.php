@@ -77,6 +77,7 @@ function orden_masiva() {
 }
  function remove_orden_masiva(rid) {
    $('.removeclass'+rid).remove();
+   room--;
  }
 
  $(document).ready(function()
