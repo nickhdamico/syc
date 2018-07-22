@@ -1,8 +1,8 @@
 <?php
 function login($datos){
-  $db_server = "localhost";
-  $db_username = "root";
-  $db_password = "root";
+  $db_server = "plesk.ar.conectemos.com";
+  $db_username = "syctest";
+  $db_password = "y5Ok2m!2";
   $db_database = "syc";
 $usuario = $datos['usuario'];
 $password =$datos['password'];
