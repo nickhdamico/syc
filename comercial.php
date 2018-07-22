@@ -99,7 +99,7 @@ function orden_masiva() {
     document.getElementById("arancel_especial").checked = true;
 }
 if (check()== true) {
-
+  
 
 }
 

@@ -69,7 +69,7 @@
     <label for="precio_limite">Precio Límite</label>
     <input type="number" id="precio_limite" class="form-control" name="precio_limite" value="">
   </div>
-  <div class="form-group">
+  <div class="form-group" style="width: 20%; display:inline-block">
     <label for="arancel_especial">Arancel Especial</label>
     <input type="checkbox" id="arancel_especial" class="form-control" name="arancel_especial" value="">
   </div>
